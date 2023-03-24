@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+h1 {
+    text-align: center;
+    border: solid green;
+}
+.content {border: 2px solid black;}
+.Box {border: 1px solid red;
+width: 500px;
+height: 1500px;}
+.Parent {border: 2px solid blue;
+width: 1000px;
+height: 2000px;}
+.content-1 {margin-top: auto;
+    width: 50px;
+    height: 50px;
+    float: left;    
+}
+.content-2 {width: 50px;
+    height: 50px;    
+}
+
+/* img {
+    display: block;
+    border: 2px solid green;
+    margin: auto    ;
+} */
+
+p {clear: both;}
+.relative {margin-top: auto;
+    width: 50px;
+    height: 50px;
+}
+.absolute {width: 50px;
+    height: 50px;    
+}
+.fixed {margin-top: auto;
+    width: 50px;
+    height: 50px;
+}
+.sticky {width: 50px;
+    height: 50px;    
+}
+ul {list-style-type: circle;}
+.relative {position: relative;
+    top: 500px ;
+left: 200px;}
+.absolute {position: absolute;
+    top: 200px;
+height: 200px;}
+.fixed {
+    position: fixed;
+    right: 0px;
+    top: 10px;
+bottom: 0;}
+.sticky {position: sticky;
+right: 0px;
+left: 10px;
+top: 100px;
+bottom: 100px;}
+    </style>
+</head>
+<body>
+<h1>Hello World</h1>
+<!-- <div class="Box">
+<div class="content-1 content">Content 1</div>
+<div class="content-2 content">Content 2</div>
+<p>Take photos and record videos with your camera. ... An easy-to-use Camera app for taking photos and recording videos.</p>
+</div>  -->
+<!-- <ul>
+<li>Class 1</li>
+<li>Class 2</li>
+<li>Class 3</li>
+</ul> -->
+<div class="parent">
+<div
+class="Box">
+    <div class="relative content">Position Relative</div>
+    <div class="absolute content">Position Absolute</div>
+    <div class="fixed content">Position fixed</div>
+    <div class="sticky content">Position Sticky</div>
+</div>
+</div>
+</body>
+</html>

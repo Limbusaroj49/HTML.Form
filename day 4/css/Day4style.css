@@ -1,0 +1,18 @@
+/* * {background-image: url('../../Filesforclass/download.jpg');}
+* {background-repeat: no-repeat;}
+* {background-size: cover;} */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {color: red;}
+#Saroj   {
+border-radius: 100px;
+border-width: 50px;
+border-color: blue;
+border-style: double ; }
+#Button {border-color: yellow;
+border-width: 10px;}
+*Font {
+
+font-size: 10px;  
+}
