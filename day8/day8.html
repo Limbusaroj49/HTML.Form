@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./day8.css">
+    <title>Day8</title>
+</head>
+<body>
+<section class="header">
+<nav>
+<a href="#">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/BMW_logo_%28gray%29.svg" alt="BMW"
+ />
+<div class="link" id="links">
+    <i class="fa fa-times" onclick="closemenu()"></i>
+    <ul class="lists">
+<li><a href="#">Home</a></li>
+<li><a href="#tour">Course</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+ </ul>   
+</div>
+</a>
+<i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<div class="Text-box">
+    <h3>this is blog</h3>
+    <p>this is my blog about my journy</p>
+</div>
+</section>
+<section id="tour" class="course">
+    <h1>travel</h1>
+    <p>go from one place to another, typically over a distance of some length. </p>
+<div class="row">
+   <div class="course-col">
+    <h1>bungee</h1>
+    <p>go from one place to another, typically over a distance of some length.</p>
+   </div>
+   <div class="course-col">
+    <h1>loading</h1>
+    <p>go from one place to another, typically over a distance of some length.</p>
+   </div>
+   <div class="course-col">
+    <h1>racing</h1>
+    <p>go from one place to another, typically over a distance of some length.</p>
+   </div>
+   <div class="course-col">
+    <h1>driving</h1>
+    <p>go from one place to another, typically over a distance of some length.</p>
+   </div>
+   <div class="course-col">
+    <h1>cycling</h1>
+    <p>go from one place to another, typically over a distance of some length.</p>
+   </div> 
+</div>
+</section>
+<section class="about">
+    
+</section>
+<section><div class="about">
+    <div class="container">
+        <div class="content-section">
+<div class="title">About US</div>
+<div class="content">
+    <h3>Camera</h3>
+    <p>A camera is an optical instrument that captures images. Most cameras can capture 2D images, while some more advanced models can capture 3D images.</p>
+   <div class="button">
+    <a class="saroj" href="#">Read More</a>
+   </div> 
+</div>  
+<div class="soical">
+    <a class="sss" href="#">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-twitter"></i>
+</a>
+</div>
+        </div>
+    </div>
+    <div class="image-section">
+        <img src="https://thumbs.dreamstime.com/z/hand-showing-small-size-2-5670227.jpg" alt="man">
+    </div>
+</div>
+</section>
+<section>
+<div class="contact">
+    <h1 class="contact us">Contact Us</h1>
+<ul class="name">
+<li>Saroj Limbu</li>
+<li>Address: Chabahil</li>
+<li>Contact Number: 9843709937</li>
+</ul>
+</div>
+</section>
+<script>
+    const links = document.getElementById("links")
+    function closemenu(){
+        links.style.right= "-500px"
+    }
+    function showmenu(){
+        links.style.right= "0"
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+min-height: 100vh;
+width: 100%;
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4f/Twitter-logo.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {width: 100px;}
+.lists li {list-style-type: none;
+text-decoration: none;
+display: inline-block;
+padding: 2px 12px;
+position: relative;}
+
+.lists li a {text-decoration: none;
+color: red;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: bold;}
+.lists li a::after {
+content: "";
+background: green;
+height: 2px;
+width: 0;
+position: absolute;
+left: 0;
+bottom: 0;
+transition: 0.5;
+}
+.lists li a:hover::after {width: 100%;}
+.fa {display: none;}
+.Text-box {font-size: 50px;}
+.course {
+  margin-top: 5%;
+  width: 80%;
+  margin: 3% auto;
+}
+.row {margin-top: 5%;
+display: flex;
+justify-content:space-between;
+flex-wrap: wrap;}
+.course-col {
+  width: 30%;
+  padding: 1%;
+  border-radius: 5px;
+  transition: 0.5s;
+  background-color: antiquewhite;
+  padding: 20px 12px;
+  margin-bottom: 3%;
+}
+.course-col:hover {
+  transition: 0.5s;
+  box-shadow: 0 0 20px 0 red;
+}
+.about section {width: 100%;
+min-height: 100vh;
+background-color: rgb(31, 95, 151);
+}
+.container {
+  width: 80%;
+    display: block;
+  margin: auto;
+  padding-top: 50px;
+  }
+  .container-section {
+    display: inline-block;
+      width: 10%;
+  }
+  /* .image-section {
+    display: inline-block;
+        width: 10%;
+  } */
+  .image-section {height: 10vh;
+  width: 10vw}
+  .container-section .tittle {
+    text-transform: uppercase;
+    font-size: 48px;
+  }
+  .saroj {background-color: aqua;
+  padding: 12px 13px;
+  text-decoration: none;
+  }
+  .saroj:hover {cursor: crosshair;
+  font-size: 25px;}
+.soical i{font-size: 50px;
+margin-top: 25px;
+color: red;
+}
+.sss {text-decoration: none;}
+.image-section {width: 10px;
+height: 10px;}
+.contact {color: red;
+font-size: 20px;
+
+}
+.name {list-style-type: none;}
+@media only screen and (max-width:500px){
+  .Text-box, h3 {font-size: 20px;} 
+  .fa {display: block;}
+  .link {position: absolute;
+    right: 0;
+    top: 0;
+    background-color: green;
+    height: 100vh;
+    width: 200px;
+    z-index: 2; 
+    text-align: center;}  
+    .fa {display: block;
+      color: gold;
+      cursor: pointer;}
+    .course-col {width: 100%;}  
+
+  }
